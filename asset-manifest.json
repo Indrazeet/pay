@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pay/static/css/main.45fd9a91.css",
+    "main.js": "/pay/static/js/main.517948c4.js",
+    "index.html": "/pay/index.html",
+    "main.45fd9a91.css.map": "/pay/static/css/main.45fd9a91.css.map",
+    "main.517948c4.js.map": "/pay/static/js/main.517948c4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45fd9a91.css",
+    "static/js/main.517948c4.js"
+  ]
+}
