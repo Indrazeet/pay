@@ -1,0 +1,464 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* custom colors  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --bgcolor: #f1f5fd;
+    --primary-color: #6f5de7;
+    --text-color: #828286;
+    --main-text-color: #33333333;
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color: #333333;
+}
+/* ---------------------------------------------------------------------------------nevbar css style start
+                                          ------------------------------------------------------------------------------- */
+.navbar-bg{
+    background-color: var(--bgcolor);
+    padding: 2rem 0;
+    z-index: 99;
+    position: relative;
+}
+.navbar-brand{
+    font-size: 2.5rem;
+}
+
+.navbar li {
+    padding: 0 2rem ;
+}
+
+.navbar li a{
+    font-size: 1.7rem;
+    font-weight: normal;
+    position: relative;
+}
+.navbar li a:hover{
+    color: var(--primary-color) !important;
+    text-shadow: 0 0.2rem 0.3rem rgba(183, 171, 255, 0.5);
+}
+.btn-slyle{
+    width: 12rem;
+    height: 4rem;
+    border-radius: 2rem;
+    color: #fff;
+    background-color:var(--primary-color);
+    text-transform: capitalize;
+    font-size: 1.6rem;
+}
+.btn-slyle:first-child{
+    margin-right:2rem ;
+}
+
+.btn-slyle:hover {
+ border: 0.1rem solid var(--primary-color);
+background-color: transparent;
+color: var(--primary-color);
+box-shadow: 0 0.2rem 0.5rem rgba(183, 171, 255, 0.5);
+}
+.btn-style-border{
+    border: 0.1rem solid var(--primary-color);
+    background-color: transparent;
+    color: var(--primary-color);
+    box-shadow: 0 0.2rem 0.5rem rgba(183, 171, 255, 0.5);
+}
+.btn-style-border:hover{
+   
+    
+    color: #fff;
+    background-color:var(--primary-color);
+    text-transform: capitalize;
+    
+}
+/* ---------------------------------------------------------------------------------nevbar css style end
+                                          ------------------------------------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------------------------------------hero section css style start
+                                          ------------------------------------------------------------------------------- */
+
+
+ header{
+    background-color: var(--bgcolor);
+    min-height: 100vh;
+    width: 100%;
+ }
+.main-hero-container {
+    height: 80vh;
+    display: flex;
+}
+.main-hero-container h1 {
+    text-transform: capitalize;
+    font-weight: bolder;
+
+}
+.main-hero-para {
+    font-size:1.5rem;
+    color: var(--text-color);
+    margin: 3rem 0 5rem 0;
+    font-weight: 300;
+    width: 75%;
+}
+
+.main-hero-container h3 {
+    font-weight: 300;
+}
+
+.main-herosection-images{
+    position: relative;
+}
+.input-group{
+    position: relative !important;
+
+}
+
+.form-control-text{
+    position: absolute ;
+   height: 5rem;
+  
+   border:none;
+   outline-style:none ;
+   padding:1.5rem !important ;
+   font-size: 1.4rem;
+   font-weight: 300;
+}
+
+.input-group-button{
+    position: absolute;
+    right: 51%;
+    top: 0.5rem;
+    color: #fff;
+    background-color: var(--primary-color);
+    height: 4rem;
+    width: 15%;
+    border-radius: 2rem !important;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+
+
+
+}
+
+/* right side of hero section */
+.main-herosection-images img{
+width: 60%;
+height: 75%;
+margin-top:10rem ;
+box-shadow: 0 0.8rem 0.8rem rgba(0,0,0,0.25);
+position: absolute;
+border-radius: 1.5rem;
+}
+
+.main-herosection-images .mainhero-im2{
+    position: absolute;
+    width: 50%;
+    height: 30%;
+    top:-2%;
+    left: 55%;
+    box-shadow:  0.8rem 0 0.8rem rgba(0,0,0,0.25);
+}
+
+
+
+/* ---------------------------------------------------------------------------------hero section css style end
+                                          ------------------------------------------------------------------------------- */
+
+                                          
+/* ---------------------------------------------------------------------------------WORK css style START
+                                          ------------------------------------------------------------------------------- */
+.work-container {
+    width: 80vw;
+    padding: 5rem;
+    box-shadow: 0 0.4rem 1.2rem rgba(0,0,0,0.2);
+    margin-top: -10rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+}
+.work-container .main-heading {
+    font-size: 3rem;
+    font-weight:bolder;
+    margin-bottom: 4rem;
+    word-spacing: 1rem;
+}
+.work-container-subdiv {
+    padding: 0 6rem;
+}
+.work-container .sub-heading{
+font-size: 2rem;
+font-weight: normal;
+}
+.fontawesome-style {
+    font-size: 2.3rem;
+    color: var(--primary-color);
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    background-color: var(--bgcolor);
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin: 2rem auto;
+
+
+}
+                                          
+/* ---------------------------------------------------------------------------------WORK css style end
+                                          ------------------------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------------------------------------about us section  start
+----------------------------------------------------------------------- */
+
+.common-section {
+    margin: 5rem 0;
+}
+.our-services img {
+    width: 50%;
+    height: 75%;
+    margin-top:10rem; 
+    box-shadow:rgba(0, 0, 0, 0.25) 0px 0.8rem 0.8rem ;
+    border-radius: 1.5rem;
+}
+
+.our-services .mini-title{
+     text-transform: uppercase;
+     font-size: 1.5rem;
+     font-weight: normal;
+     margin: 3rem 0;
+     text-align: left;
+}
+.our-services .main-heading{
+font-weight: bolder;
+ }
+ .our-services-info{
+     margin-top: 4rem;
+ }
+ .our-services .our-services-number{
+    width: 3rem;
+    height: 3rem;
+    border-radius:50% ;
+    background-color: transparent;
+    border: 0.1rem solid var(--primary-color);
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    display: grid;
+    place-items: center;
+
+ }
+ .our-services-data{
+    padding-left:2rem ;
+ }
+ .our-services .our-services-data p {
+    margin: 1rem 0;
+ }
+/* 2nd section of about us */
+.our-services-rightside{
+    margin-top: 10rem;
+}
+.our-services-rightside-content{
+    padding-left: 8rem;
+}
+
+
+/* ------------------------------------------------------------------------------------about us section  end
+                                                  ----------------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------------------------------------services us section  starrt
+                                                  ----------------------------------------------------------------------- */
+.services-main-container{
+margin-top: 5rem;
+padding: 5rem 0;
+}
+.services-main-container .main-heading{
+margin:3rem 0;
+}
+.work-container-subdiv{
+    box-shadow: rgba(0, 0, 0, 0.16) 0 0.1rem 0.4rem;
+
+}
+
+.services-main-container .work-container-subdiv .fontawesome-style{
+    text-align: left;
+    margin: 2rem 0;
+}
+.work-container-subdiv .main-hero-para{
+    width: 100%;
+}
+.work-container-subdiv:hover{
+    background-color: var(--bgcolor);
+    cursor: pointer;
+}
+.work-container-subdiv:hover > .fontawesome-style {
+    background-color: #fff;
+}
+
+@media (min-width: 1400px) {
+    .services-container .col-xxl-4 {
+        flex: 0 0 auto;
+        width: 30% !important;
+        margin: auto;
+    }
+   
+}
+
+@media (min-width:1500px){
+    .services-container .col-lg-4 {
+        flex: 0 0 auto;
+        width: 30% !important;
+        margin:2.5rem auto;
+    }
+}
+
+/* ------------------------------------------------------------------------------------services us section  end
+                                                  ----------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------------------Contact us section  start
+                                                  ----------------------------------------------------------------------- */
+.contactus-section{
+   margin: 15rem 0; 
+}
+.contact-leftside img {
+    min-width: 70%; max-height: 35rem;
+    height: auto;
+    border-radius: 1.5rem;
+}
+.contact-input-feild{
+    margin-bottom: 4rem;
+}
+.form-control{
+    height: 5rem;
+}
+.contact-rightside form .form-control{
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    height: 5rem;
+    border-radius: 0.5rem;
+    font-size: 1.6rem;
+    padding-left:1rem ;
+    font-weight: 300;
+
+}
+
+.contact-rightside form .form-check-input {
+    width: 2em;
+    height: 2em;
+}
+.from-checkbox-style{
+    margin: 4rem 0;
+}
+.contact-rightside form .main-hero-para {
+    font-size: 1.5rem;
+    color: var(--text-color);
+    margin: 0;
+    font-weight: 300;
+    width: 75%;
+    padding: 0 2rem;
+}
+/* ------------------------------------------------------------------------------------Contact us section  end
+ ----------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------------------footer section  start
+                                                  ----------------------------------------------------------------------- */
+
+footer{
+    padding: 5rem 0 ;
+    background-color: #182334;
+    color: #fff;
+
+}
+footer h2{
+    color: #fff;
+}
+footer li {
+    list-style:none;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #fff;
+    cursor: pointer;
+    margin:1rem 0 ;
+
+}
+footer li:hover {
+    color: var(--primary-color);
+
+}
+footer .main-hero-para {
+margin: 0;
+}
+
+footer .fontawesome-style{
+    font-size: 2.3rem;
+    color: var(--primary-color);
+    background-color: transparent;
+    width: 0rem;
+    height: 0rem;
+    margin: 2rem 0;
+    cursor: pointer;
+}
+footer .fontawesome-style:hover{
+    transition: all 1s;
+    animation: rotatefont 1s linear infinite alternate-reverse;
+    color: #fff;
+}
+
+@keyframes rotatefont {
+    0% {
+        transform: scale(0.6);
+    }
+    100% {
+        transform: scale(1.2);
+    }
+}
+    
+/* ------------------------------------------------------------------------------------footer section  end
+                                                  ----------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------------------responsive media queries
+                                          ------------------------------------------------------------------------------- */
+@media (min-width: 1500px){
+    .container,
+     .container-lg,
+     .container-md,
+     .container-sm,
+     .container-xl,
+     .container-xxl{
+     max-width: 1500px !important;
+     }
+}
+@media (min-width: 1400px){
+    .container,
+     .container-lg,
+     .container-md,
+     .container-sm,
+     .container-xl,
+     .container-xxl{
+      max-width: 1400px !important;
+     }
+}
